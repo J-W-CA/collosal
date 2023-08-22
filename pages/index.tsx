@@ -14,7 +14,7 @@ import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Collosal">
+      <PageTemplate title="Omnind - &O">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
@@ -22,8 +22,8 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="Omnind Inc."
-              description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
+              title="&O"
+              description="When Intelligence Meets Industry"
               badge="CLIENT-DEVELOPMENT-DRIVEN"
             />
           </div>
