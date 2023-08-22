@@ -93,13 +93,6 @@ const Home = () => {
                 paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
                 badge="OUR TEAM"
               />
-              <ButtonLink
-                value="See Our Teams"
-                href="/teams"
-                size="small"
-                color="white"
-                style="light"
-              />
             </div>
           </aside>
           <aside
