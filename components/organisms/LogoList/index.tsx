@@ -22,6 +22,14 @@ const LogoList = () => {
             alt="microsoft logo"
           />
         </div>
+        <div className="">
+          <Image
+            src={'/images/Unity-ico.svg'}
+            width={120}
+            height="36"
+            alt="unity logo"
+          />
+        </div>
       </section>
     </>
   )
