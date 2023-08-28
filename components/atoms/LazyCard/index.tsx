@@ -21,8 +21,6 @@ const LazyCard = ({
           : ''
       } flex flex-col place-items-center place-content-between bg-cardDark border border-borderLight pt-[54px] rounded-md px-12 lg:px-16`}
     >
-      <h2 className="text-2xl font-bold text-white">My Card Title</h2>
-      <p className="text-white">This is some content for the card.</p>
       <div className="w-full flex flex-col place-items-center">
         <div className="w-full max-w-[160px] h-[26px] mb-3.5 rounded-full bg-[#212136]"></div>
         <div className="w-full max-w-[96px] h-[26px] rounded-full bg-[#212136]"></div>
