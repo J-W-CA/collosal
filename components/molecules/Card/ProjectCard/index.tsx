@@ -17,7 +17,7 @@ const ProjectCard = ({
       <LazyCard bottomSquareSize={bottomSquareSize} height={height} />
       <div className="flex flex-col place-items-center text-center mt-10">
         <div className="mb-2.5">
-          <Text value={"hahahahah"} textStyle="ProjectTitle" />
+          <Text value={title} textStyle="ProjectTitle" />
         </div>
         <div className="mb-9">
           <Text value={description} textStyle="ProjectDescription" />
