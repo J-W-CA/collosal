@@ -31,7 +31,6 @@ const ProjectCard = ({
             href="/project/detail"
           />
         </div>
-        <p>This is the additional text you want to add.</p>
       </div>
     </div>
   )
