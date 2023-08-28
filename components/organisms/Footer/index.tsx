@@ -12,7 +12,7 @@ const Footer = () => {
             <NavBrand />
             <div className="">
               <Text
-                value={`Copyright © 2023 Omnind Inc.${new Date().getFullYear()}`}
+                value={`Copyright © ${new Date().getFullYear()} Omnind Inc.`}
                 textStyle="SectionParagraph"
               />
               <Text
