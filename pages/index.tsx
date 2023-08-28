@@ -124,14 +124,12 @@ const Home = () => {
               <ProjectCard
                 title="The Desktop App Landing Page"
                 description="A landing page for desktop app"
-                imageSrc="https://commons.wikimedia.org/wiki/File:Solid_white.svg"
               />
             </div>
             <div data-aos="flip-right">
               <ProjectCard
                 title="The Mobile App Landing Page"
                 description="A landing page for mobile app"
-                imageSrc="https://commons.wikimedia.org/wiki/File:Solid_white.svg"
                 bottomSquareSize="big"
               />
             </div>
