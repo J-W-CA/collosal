@@ -64,6 +64,7 @@ const NavBar = () => {
                 }space-y-5 mt-4 lg:mt-0 lg:space-y-0 lg:space-x-16 lg:flex lg:place-items-center`}
               >
                 <NavLink href="/service" value="Services" canActive={true} />
+                <NavLink href="/pricing" value="Prices" canActive={true} />
                 <NavLink
                   href="/how-we-work"
                   value="Strategies"
