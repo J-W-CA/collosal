@@ -36,9 +36,7 @@ const Footer = () => {
                 <NavLink value="About" href="/about" />
                 <NavLink value="Contact" href="/contact" />
                 <NavLink value="Send Quote" href="/quote" />
-                <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Blogs" href="/blog" />
               </div>
             </div>
             <div className="space-y-5">

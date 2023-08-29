@@ -69,7 +69,6 @@ const NavBar = () => {
                   value="Strategies"
                   canActive={true}
                 />
-                <NavLink href="/project" value="Projects" canActive={true} />
                 <NavLink href="/about" value="About" canActive={true} />
               </div>
               <div
