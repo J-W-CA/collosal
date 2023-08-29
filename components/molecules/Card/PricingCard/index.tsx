@@ -33,7 +33,6 @@ const PricingCard = ({
           <Text  key={randomString(64)} value={feature} textStyle="PricingDetail" />
         ))}
       </div>
-      <Button value="Detail" onClick={buttonOnclick} color={isHovered ? 'primary' : 'white'} />
     </div>
   )
 }
