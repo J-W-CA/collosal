@@ -42,21 +42,21 @@ const Home = () => {
           <div data-aos="fade-up">
             <FeatureCard
               title="Design"
-              description="The project interface will be designed first, our favorite tool is Figma."
+              description="Get to know what you want and find the appropriate approaches."
               icon={<FiFigma />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
               title="Develop"
-              description="Transform design and write business logic here. Choose the technology you want."
+              description="Transform design and write business logic here. Choose the technology best suits you."
               icon={<FiCode />}
             />
           </div>
           <div data-aos="fade-up">
             <FeatureCard
-              title="Ship"
-              description="After the work is complete, we will send the project and all its assets to you."
+              title="Deploy"
+              description="After the work is complete, we will deploy the project and send all its assets to you."
               icon={<FiBox />}
             />
           </div>
@@ -79,7 +79,7 @@ const Home = () => {
           >
             <SectionSentence
               title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped."
+              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are deployed."
               badge="HOW WE WORK"
             />
           </aside>
@@ -89,7 +89,7 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
+                title="We're a team of researchers, engineers and analysts"
                 paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
                 badge="OUR TEAM"
               />
@@ -115,44 +115,44 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="What do you need? Choose a service that can help you"
+              title="What do you need?"
               badge="GET STARTED"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="1200$"
-                title="UI Design"
+                price="Depends on your situation"
+                title="Consulting"
                 features={[
-                  '10 design pages',
-                  'Well-documented',
-                  '4 revisions',
-                  '$100/additional page',
+                  'Analyse',
+                  'Connect',
+                  'Strategies',
+                  'Test',
                 ]}
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <PricingCard
-                price="5000$"
-                title="Development"
+                price="Depends on your needs"
+                title="Optimization"
                 features={[
-                  'Web & Mobile',
-                  'Well-documented',
-                  '8 revisions',
-                  '$1000/additional page',
+                  'Analyse',
+                  'Plan',
+                  'Simulate',
+                  'Deploy',
                 ]}
               />
             </div>
             <div data-aos="fade-up-left">
               <PricingCard
-                price="3000$"
-                title="Maintenance"
+                price="Depends on your expectation"
+                title="Transformation"
                 features={[
-                  'Daily backup',
-                  '3 hours of maintenance',
-                  'Including fixing',
-                  '$50/additional hour',
+                  'Develop',
+                  'Update',
+                  'Track',
+                  'Self-Adapative',
                 ]}
               />
             </div>
@@ -162,7 +162,7 @@ const Home = () => {
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
-              title="What do our clients say that we never let down?"
+              title="Why Us"
               badge="TESTIMONIAL"
             />
           </div>
