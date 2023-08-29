@@ -53,61 +53,6 @@ const About = () => {
           <LogoList />
         </div>
       </section>
-      <section className="grid place-items-center gap-16">
-        <div
-          className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
-          data-aos="zoom-in-up"
-        >
-          <SectionSentence
-            badge="OUR TEAMS"
-            title="Meet the team! All creative people are here"
-          />
-        </div>
-        <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-2.webp"
-              job="Chief Technology Officer"
-              name="Devon Lane"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Marvin McKinney"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Floyd Miles"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Annette Black"
-            />
-          </div>
-        </div>
-      </section>
     </PageTemplate>
   )
 }
