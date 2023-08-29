@@ -122,7 +122,7 @@ const Home = () => {
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="Depends on your situation"
+                price="$8000"
                 title="Consulting"
                 features={[
                   'Analyse',
@@ -134,7 +134,7 @@ const Home = () => {
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <PricingCard
-                price="Depends on your needs"
+                price="$50,000"
                 title="Optimization"
                 features={[
                   'Analyse',
@@ -146,7 +146,7 @@ const Home = () => {
             </div>
             <div data-aos="fade-up-left">
               <PricingCard
-                price="Depends on your expectation"
+                price="$100,000"
                 title="Transformation"
                 features={[
                   'Develop',
