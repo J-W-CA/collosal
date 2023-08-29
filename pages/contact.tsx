@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="w-full sm:w-10/12 md:w-8/12 lg:w-full bg-light rounded-md p-6 md:p-9" data-aos="fade-down-left">
           {/* 这里可以添加图片或其他内容 */}
           {/* 示例： */}
-          <img src="/learn.png" alt="Filler Image" className="w-full h-auto rounded-md max-h-[200px]" />
+          <img src="/images/learn.png" alt="Filler Image" className="w-full h-auto rounded-md max-h-[200px]" />
           {/* 或添加其他内容 */}
         </div>
       </section>
