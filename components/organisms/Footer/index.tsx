@@ -25,15 +25,6 @@ const Footer = () => {
             <div className="space-y-5">
               <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink
-                  value="Web Development"
-                  href="/service/detail"
-                />
-                <NavLink
-                  value="App Development"
-                  href="/service/detail"
-                />
-                <NavLink value="UI Design" href="/service/detail" />
                 <NavLink value="Consultation" href="/service/detail" />
                 <NavLink value="Maintenance" href="/service/detail" />
                 <NavLink value="Pricing" href="/pricing" />
@@ -47,7 +38,6 @@ const Footer = () => {
                 <NavLink value="Send Quote" href="/quote" />
                 <NavLink value="Privacy Policy" href="/privacy-policy" />
                 <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
                 <NavLink value="Blogs" href="/blog" />
               </div>
             </div>
