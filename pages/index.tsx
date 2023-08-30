@@ -36,6 +36,8 @@ const Home = () => {
             />
           </div>
         </section>
+        {/* Logo List */}
+        <LogoList />
         {/* Feature List */}
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
           <div data-aos="fade-up">
@@ -60,8 +62,6 @@ const Home = () => {
             />
           </div>
         </section>
-        {/* Logo List */}
-        <LogoList />
         {/* How We Work */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
           <aside className="w-full h-[400px] relative" data-aos="fade-right">
