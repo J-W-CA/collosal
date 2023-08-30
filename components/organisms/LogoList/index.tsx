@@ -11,7 +11,7 @@ const LogoList = () => {
             src={'/images/Microsoft Cloud Solution Provider.svg'}
             width={1200}
             height="360"
-            alt="microsoft logo"
+            alt="microsoft solutions partner logo"
           />
         </div>
       </section>
