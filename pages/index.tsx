@@ -107,56 +107,6 @@ const Home = () => {
           </aside>
         </section>
         <LineDivider />
-        {/* Prices */}
-        <section className="flex flex-col gap-16 items-center">
-          <div
-            className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12"
-            data-aos="zoom-in-up"
-          >
-            <SectionSentence
-              title="What do you need?"
-              badge="GET STARTED"
-            />
-          </div>
-          <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
-            <div data-aos="fade-up-right">
-              <PricingCard
-                price="$8000"
-                title="Consulting"
-                features={[
-                  'Analyse',
-                  'Connect',
-                  'Strategies',
-                  'Test',
-                ]}
-              />
-            </div>
-            <div data-aos="fade-up" data-aos-delay="300">
-              <PricingCard
-                price="$50,000"
-                title="Optimization"
-                features={[
-                  'Analyse',
-                  'Plan',
-                  'Simulate',
-                  'Deploy',
-                ]}
-              />
-            </div>
-            <div data-aos="fade-up-left">
-              <PricingCard
-                price="$100,000"
-                title="Transformation"
-                features={[
-                  'Develop',
-                  'Update',
-                  'Track',
-                  'Self-Adapative',
-                ]}
-              />
-            </div>
-          </div>
-        </section>
       </PageTemplate>
     </>
   )

@@ -56,37 +56,37 @@ const Pricing = () => {
       <section className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
         <div data-aos="fade-up">
           <PricingCard
-            price="1200$"
-            title="UI Design"
+            price="$8000"
+            title="Consulting"
             features={[
-              '10 design pages',
-              'Well-documented',
-              '4 revisions',
-              '$100/additional page',
+              'Analyse',
+              'Connect',
+              'Strategies',
+              'Test',
             ]}
           />
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="5000$"
-            title="Development"
+            price="$50,000"
+            title="Optimization"
             features={[
-              'Web & Mobile',
-              'Well-documented',
-              '8 revisions',
-              '$1000/additional page',
+              'Plan',
+              'Develop',
+              'Simulate',
+              'Deploy',
             ]}
           />
         </div>
         <div data-aos="fade-up">
           <PricingCard
-            price="3000$"
-            title="Maintenance"
+            price="$100,000"
+            title="Transformation"
             features={[
-              'Daily backup',
-              '3 hours of maintenance',
-              'Including fixing',
-              '$50/additional hour',
+              'Develop',
+              'Update',
+              'Track',
+              'Self-Adapative',
             ]}
           />
         </div>
