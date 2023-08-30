@@ -165,9 +165,6 @@ const Home = () => {
               badge="TESTIMONIAL"
             />
           </div>
-          <div className="w-full" data-aos="fade-up">
-            <TestimonialList />
-          </div>
         </section>
       </PageTemplate>
     </>
