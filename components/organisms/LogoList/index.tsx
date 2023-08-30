@@ -9,14 +9,16 @@ const LogoList = () => {
         <div className="">
           <Image
             src={'/images/Microsoft-Solutions-Partner.png'}
-            width={200}
+            width={120}
+            height="36"
             alt="google logo"
           />
         </div>
         <div className="">
           <Image
             src={'/images/Microsoft Cloud Solution Provider.svg'}
-            width={200}
+            width={120}
+            height="36"
             alt="microsoft logo"
           />
         </div>
