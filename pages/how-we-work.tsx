@@ -42,7 +42,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 02"
             title={`Doing planning, design and development until everything is finished`}
-            paragraph="When everything is agreed upon, our team will make plans related to the solution that will be created. Starting from analysis, design, to development. <br> <br> In this step, the solution is 100% complete."
+            paragraph="When everything is agreed upon, our team will make plans related to the solution that will be created. Starting from analysis, design, to development. Also, you should provide the data we need from production line in engineering environment. <br> <br> In this step, the solution is 100% complete."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">

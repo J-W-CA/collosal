@@ -90,7 +90,7 @@ const ServiceDetail = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge=" FEATURES"
-            title="Here's what you will get when purchasing this service"
+            title="How our Customers Benefit"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

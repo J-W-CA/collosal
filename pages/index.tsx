@@ -23,8 +23,8 @@ const Home = () => {
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
               title="&O"
-              description="When Intelligence Meets Industry"
-              badge="SOLUTIONS DRIVEN"
+              description="Advanced Solutions Provider for Manufacturing"
+              badge="When Intelligence Meets Industry"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">

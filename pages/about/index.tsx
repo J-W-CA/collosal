@@ -15,7 +15,7 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/about-illustration.webp'}
+              src={'/images/1.png'}
               layout="fill"
               objectFit="contain"
               quality={80}
@@ -30,8 +30,8 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            title="Advanced Solutions Provider for Manufacturing"
+            description={`Aiming to help manufacturing firms stay competitive and transform to new stage by applying the advanced technology built in-house. Experienced experts would support your business and service along the collaboration`}
           />
         </aside>
       </section>
@@ -43,7 +43,7 @@ const About = () => {
         >
           <SectionSentence
             badge="STATISTICS"
-            title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
+            title="In 3 years we reached 3 countries, 13 clients and earning $50k USD"
           />
         </div>
         <div className="w-full grid gap-14">
