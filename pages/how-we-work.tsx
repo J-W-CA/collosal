@@ -12,7 +12,7 @@ const HowWeWork = () => {
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
             badge="HOW WE WORK"
-            title="We have a workflow that allows the job to be delivered well"
+            title="&O-Flow helps you have a better comprehension of Omnind"
           />
         </div>
       </section>
@@ -33,7 +33,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 01"
             title={`Let's talk about your company's problems first`}
-            paragraph={"After submitting the quote form, we will review the data, then we will contact you. You can discuss with our team regarding your problem and find a solution to that problem. <br> <br> In this step, you will discuss what application to build."}
+            paragraph={"You can discuss with our team regarding your problem and find a solution to that problem. <br> <br> In this step, you will discuss what application to build."}
           />
         </aside>
       </section>
@@ -42,7 +42,7 @@ const HowWeWork = () => {
           <SectionSentence
             badge="STEP 02"
             title={`Doing planning, design and development until everything is finished`}
-            paragraph="When everything is agreed upon, our team will make plans related to the application that will be created. Starting from analysis, design, to development. <br> <br> In this step, the application is 100% complete."
+            paragraph="When everything is agreed upon, our team will make plans related to the solution that will be created. Starting from analysis, design, to development. <br> <br> In this step, the solution is 100% complete."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -72,8 +72,8 @@ const HowWeWork = () => {
         <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
           <SectionSentence
             badge="STEP 03"
-            title={`The project is complete and we ship all the project assets, and access to the server`}
-            paragraph="We will be responsible for delivering all the project assets to you, don't worry. These assets include, design files, source code, server access, and so on. <br> <br> In this step, everything is done and the contract ends."
+            title={`Test, delpoyment, ongoing support and your feedback`}
+            paragraph="We will be responsible for delivering all the project assets to you, don't worry. These assets include, source code, server access, simulation model, solutions plan, and so on. <br> <br> In this step, everything is done and the contract ends."
           />
         </aside>
       </section>

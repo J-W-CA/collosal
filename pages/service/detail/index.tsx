@@ -86,15 +86,6 @@ const ServiceDetail = () => {
   ]
   return (
     <PageTemplate title="Benefit - &O">
-      <section className="grid place-items-center">
-        <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
-          <PageSentence
-            badge="BENEFIT"
-            title="How our Customers Benefit"
-          />
-        </div>
-      </section>
-      <LineDivider />
       <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
