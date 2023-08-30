@@ -8,7 +8,7 @@ const LogoList = () => {
       <section className="py-8 m-0 flex flex-row flex-wrap place-items-center justify-around gap-4 md:gap-0 border-y border-borderLight" data-aos='fade-left'>
         <div className="">
           <Image
-            src={'/images/google-logo.svg'}
+            src={'/images/Microsoft-Logo.png'}
             width={120}
             height="36"
             alt="google logo"
@@ -16,7 +16,7 @@ const LogoList = () => {
         </div>
         <div className="">
           <Image
-            src={'/images/microsoft-logo.svg'}
+            src={'/images/Microsoft Cloud Solution Provider.svg'}
             width={120}
             height="36"
             alt="microsoft logo"
