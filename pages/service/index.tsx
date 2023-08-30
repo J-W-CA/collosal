@@ -21,7 +21,7 @@ import IconListItem from 'components/molecules/IconListItem'
 const Services = () => {
   return (
     <>
-      <PageTemplate title='Service - Collosal'>
+      <PageTemplate title='Service - &O'>
         <section className="grid place-items-center" data-aos="zoom-in-up">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
@@ -45,7 +45,7 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="UI DESIGN"
+                badge="CONSULTING"
                 title="Don't let your idea get caught by others, design a prototype for your idea"
                 paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
               />
@@ -53,12 +53,12 @@ const Services = () => {
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
+                  title="Analysis"
                   description="Create a modern design for your idea."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
-                  title="Prototype"
+                  title="Solution"
                   description="Create vivid prototypes for your designs."
                   icon={<FiLayout />}
                 />

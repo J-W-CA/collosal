@@ -77,8 +77,8 @@ const Home = () => {
             data-aos="fade-left"
           >
             <SectionSentence
-              title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are deployed."
+              title="We know what you want and we help you make it"
+              paragraph="Careful planning abd discussing make us confident, developed with best practices so that the project can be maintained. We always test projects before they are deployed."
               badge="HOW WE WORK"
             />
           </aside>
@@ -88,8 +88,8 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of researchers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
+                title="A team of researchers, engineers and analysts"
+                paragraph="Our team consists of professors - PhD & Directors. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
                 badge="OUR TEAM"
               />
             </div>
