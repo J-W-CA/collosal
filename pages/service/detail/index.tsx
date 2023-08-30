@@ -51,79 +51,50 @@ const ServiceDetail = () => {
   ]
   const features: FeatureCardProps[] = [
     {
-      title: 'Design Files',
+      title: '30% Efficiency Increase',
       description:
-        'Projects are well designed using Figma. You will get the design file.',
+        'Increase the efficiency of your manufacturing operations and have more control over the performance of your processes and resources.',
       icon: <FiFigma />,
     },
     {
-      title: 'Same Day',
-      description: `We don't want you to wait long. Everything will be finished on the same day.`,
+      title: '15% Project Cost Savings',
+      description: `Design a number of what-if scenarios, have better insights into your projects, minimize your investment risks and save additional costs from your projects.`,
       icon: <FiClock />,
     },
     {
-      title: 'Quality Code',
-      description: `Code written according to good practice is highly maintainable.`,
+      title: '3,000+ Components',
+      description: `Use an extensive library of 3D models with more than 1,600 robots, 70+ brands, and a wide range of conveyors, machines, resources, robot tools, factory facilities, and more.`,
       icon: <FiCode />,
     },
     {
-      title: 'SEO',
+      title: 'Improve Robot Utilization by 95%',
       description:
-        'The website will appear on the first page of the search engine.',
+        'Optimize the utilization of your robots by intelligent and fast offline programming and repurpose them for most industrial processes whether its welding, processing, or spraying and eliminate the robot downtime.',
       icon: <FiTrendingUp />,
     },
     {
-      title: 'Responsive Design',
-      description: `Access the website on any device, don't limit your visitors.`,
+      title: '80% Faster Response',
+      description: `Simulate your concepts within minutes and hours instead of days and weeks. Respond faster to your customers and answer their questions with visual and animated proposals.`,
       icon: <FiLayout />,
     },
     {
-      title: 'Blazing Fast',
+      title: 'Reduce Engineering Time',
       description:
-        'A high speed website will not disappoint prospective customers.',
+        'Simulate, test, validate and deliver optimum engineering solutions by connecting your designs with PLCs, and robot controllers and save time by virtual commissioning before allocating time and costs to the physical systems.',
       icon: <FiZap />,
     },
   ]
   return (
-    <PageTemplate title="Service Detail - Collosal">
+    <PageTemplate title="Benefit - &O">
       <section className="grid place-items-center">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="DEVELOPMENT"
-            title="Solve your company's repetitive problems by designing apps"
+            badge="BENEFIT"
+            title="How our Customers Benefit"
           />
         </div>
       </section>
       <LineDivider />
-      <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
-        <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-right">
-          <figure className="w-full h-[450px] relative">
-            <Image
-              src={'/images/development-illustration.svg'}
-              layout="fill"
-              objectFit="fill"
-              alt="IDE that connect to Desktop, Mobile and Web mean multiple platform"
-            />
-          </figure>
-        </aside>
-        <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-          <div className="sm:w-10/12 md:w-8/12 lg:w-full lg:text-left grid gap-10">
-            <div className="grid gap-8">
-              <Text
-                value={`Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution. <br> <br> We can build you a website, a mobile app and a desktop app. All types of applications have a good security system, are easy to maintain, and are high speed. `}
-                textStyle={'SectionParagraph'}
-              />
-            </div>
-            <ul className="list-square text-white text-base font-medium pl-5 grid gap-2.5">
-              <li>Avoid potential bugs with unit testing</li>
-              <li>Removing unused code will speed up the application</li>
-              <li>The modern design pleases the users</li>
-              <li>A good UX will not disappoint users</li>
-            </ul>
-          </div>
-          <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full"></div>
-        </aside>
-      </section>
       <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence

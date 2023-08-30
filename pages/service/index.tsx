@@ -46,24 +46,23 @@ const Services = () => {
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
                 badge="CONSULTING"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                title="Choose the most appropriate plan for your problem."
+                paragraph="We know your pain, so we help you stay competitive."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
                   title="Analysis"
-                  description="Create a modern design for your idea."
+                  description="All aspects of your business"
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
                   title="Solution"
-                  description="Create vivid prototypes for your designs."
+                  description="Customized strategy for production"
                   icon={<FiLayout />}
                 />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
         </section>
@@ -71,8 +70,8 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
+                badge="OPTIMIZATION"
+                title="We bring advanced tech into your business and we make it intelligent."
                 paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
               />
             </div>
@@ -80,15 +79,14 @@ const Services = () => {
               <aside className="w-full grid grid-cols-1 gap-5">
                 <CardListIcon
                   icon={<FiSmartphone />}
-                  title="Mobile App Development"
+                  title="Mobile App"
                 />
                 <CardListIcon
                   icon={<FiMonitor />}
-                  title="Desktop App Development"
+                  title="Desktop Platform"
                 />
-                <CardListIcon icon={<FiGlobe />} title="Web Development" />
+                <CardListIcon icon={<FiGlobe />} title="Internet Support" />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
@@ -116,19 +114,18 @@ const Services = () => {
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
             <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
               <SectionSentence
-                badge="MAINTENANCE"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                badge="TRANSFORMATION"
+                title="Revolutionize the traditional industry"
+                paragraph="&O will lead your business to a new stage, more efficient, more intelligent."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
+                <IconListItem icon={<FiDownload />} value='Back up easily' />
+                <IconListItem icon={<FiArrowUp />} value='Upgrade Automatically' />
+                <IconListItem icon={<FiRefreshCcw />} value='Self-Adapative' />
                 <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
             </div>
           </aside>
         </section>
