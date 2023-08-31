@@ -16,7 +16,7 @@ const Footer = () => {
                 textStyle="SectionParagraph"
               />
               <Text
-                value={`Design By Omnind Inc.`}
+                value={`7250 Keele Str. Vaughan Ontario, Canada`}
                 textStyle="SectionParagraph"
               />
             </div>
