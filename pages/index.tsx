@@ -24,7 +24,7 @@ const Home = () => {
             <PageSentence
               title="&O"
               description="Advanced Solutions Provider for Manufacturing"
-              badge="When Intelligence Meets Industry"
+              badge="Tailoring Appropriate Solutions to Unique Needs"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
